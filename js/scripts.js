@@ -1,16 +1,27 @@
-// scripts.js
+// // scripts.js
 
-//var name = prompt('Enter your name');
 
-// var a = 12,
-// 	h = 12,
-// 	triangleArea = a*h/2;
-// console.log('Triangle field with base a: '+ a + ' and height h: ' + h + ' is equal to: ' +triangleArea);
+var a = prompt ('Enter (a)'),
+	b = prompt ('Enter (b)'),
+	value = (a * a) - (2 * a * b) + (b * b);
+  console.log('The result of the equation, where "a" is equal: '+ a + ' and "b": ' + b + ' is equal to: ' +value);
 
-// alert('Hello, ' + name);
-// console.log('Hello, ' + name);
-
-var a = prompt ('Enter base a'),
-	h = prompt ('Enter height h'),
-	triangleArea = a*h/2;
-console.log('Triangle field with base a: '+ a + ' and height h: ' + h + ' is equal to: ' +triangleArea);
+if (value < 0 ) {
+  console.log('Wynik jest ujemny');
+} else if 
+  (value > 0) {
+  console.log('Wynik jest dodatni');
+} else {
+  console.log('Wynik jest równy 0');
+}
+// if (value < 0 ) {
+//   console.log('Wynik jest ujemny');
+// } else if 
+//   (value > 0) {
+//   console.log('Wynik jest dodatni');
+// }
+// if (value == 0) {
+//   console.log('Wynik jest równy 0');
+// } else if (value != 0) {
+//   console.log('Wynik jest różny od 0');
+// }
